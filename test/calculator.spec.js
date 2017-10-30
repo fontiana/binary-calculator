@@ -1,6 +1,5 @@
 const expect = require("chai").expect;
-const path = require('path');
-const Calculator = require(path.join(__dirname, '..', 'calculator', 'calculator'));
+const Calculator = require("../calculator/calculator");
 
 describe("Binary calculator", function() {
 
