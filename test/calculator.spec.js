@@ -1,9 +1,20 @@
-var expect = require("chai").expect;
+const expect = require("chai").expect;
+const Calculator = require("../calculator/Calculator");
 
 describe("Binary calculator", function() {
 
-    it("should calculate the sum of binary numbers correctly", function() {
+    var calculator;
+    beforeEach(function() {
+        calculator = new Calculator();
+    })
 
+    it("should create calculator successfuly", function() {
+        expect(calculator).to.not.equal(undefined);
+    });
+
+    it("should calculate the sum of binary numbers correctly", function() {
+        var sum = calculator.sum();
+        expect(sum).to.be.equal(2);
     });
 
 });
