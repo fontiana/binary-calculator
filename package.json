@@ -15,8 +15,7 @@
   "author": "fontiana",
   "license": "ISC",
   "homepage": "https://github.com/fontiana/binary-calculator#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "coveralls": "2.10.0",
     "istanbul": "0.4.5",
