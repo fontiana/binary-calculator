@@ -4,7 +4,7 @@
   "description": "Binary calculator built in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test": "mocha",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
@@ -12,17 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/fontiana/binary-calculator.git"
   },
-  "author": "",
+  "author": "fontiana",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fontiana/binary-calculator/issues"
-  },
   "homepage": "https://github.com/fontiana/binary-calculator#readme",
   "dependencies": {
     "chai": "4.1.2",
     "mocha": "4.0.1"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "istanbul": "0.4.5"
   }
 }
