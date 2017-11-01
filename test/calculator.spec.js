@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const Calculator = require("../source/calculator");
+const Calculator = require("../source/Calculator");
 
 describe("Binary calculator", function() {
 
