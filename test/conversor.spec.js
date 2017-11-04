@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const conversor = require("../source/conversor");
+const conversor = require("../lib/conversor");
 
 describe("Decimal conversor", function() {
 
